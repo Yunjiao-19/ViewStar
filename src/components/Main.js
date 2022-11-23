@@ -35,10 +35,9 @@ class Main extends Component {
 
 
     showMap = (selected) => {
-        this.setState(preState => ({
-            ...preState,
+        this.setState({
             satList: [...selected]
-        }))
+        })
     }
 
     showNearbySatellite = (setting) => {

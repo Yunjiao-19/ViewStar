@@ -224,4 +224,3 @@ class WorldMap extends Component {
 }
 
 export default WorldMap;
-
